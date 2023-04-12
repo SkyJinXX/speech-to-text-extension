@@ -24,5 +24,5 @@ This Chrome extension enables you to convert your spoken words into text and ins
 
 3. Click the extension icon or press Alt+U again to stop speech recognition.
 
-Limitations
+## Limitations
 * The extension relies on the Web Speech API, which might not be available in all browsers or environments.
