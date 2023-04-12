@@ -41,7 +41,9 @@ recognition.onresult = (event) => {
 
 recognition.onend = () => {
   if (!recognition.manualStop) {
-    recognition.start();
+    setTimeout(() => {
+      recognition.start();
+    }, 100);
   }
 };
 
